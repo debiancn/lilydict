@@ -1,0 +1,22 @@
+Source: lilydict
+Section: utils
+Priority: optional
+Maintainer: Boyuan Yang <073plan@gmail.com>
+Build-Depends:
+ cmake,
+ debhelper (>= 10),
+ qtbase5-dev,
+ qtdeclarative5-dev,
+Standards-Version: 4.1.3
+Homepage: http://www.lieefu.com/lilydict
+Vcs-Git: https://github.com/debiancn/lilydict
+Vcs-Browser: https://github.com/debiancn/lilydict
+
+Package: lilydict
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: Cross-platform English directory written in Qt5
+ A cross-platform directory written in Qt5. It depends on online dictionary
+ services solely and does not require any offline dict materials.
