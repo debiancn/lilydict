@@ -3,12 +3,12 @@ Section: utils
 Priority: optional
 Maintainer: Boyuan Yang <073plan@gmail.com>
 Build-Depends:
- cmake,
  debhelper (>= 10),
- qtbase5-dev,
- qtdeclarative5-dev,
  libgmp-dev,
  qt5-qmake,
+ qtbase5-dev,
+ qtdeclarative5-dev,
+ qtmultimedia5-dev,
 Standards-Version: 4.1.3
 Homepage: http://www.lieefu.com/lilydict
 Vcs-Git: https://github.com/debiancn/lilydict
