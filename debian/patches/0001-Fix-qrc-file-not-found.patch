@@ -1,0 +1,27 @@
+From: Boyuan Yang <073plan@gmail.com>
+Date: Mon, 15 Jan 2018 09:14:02 +0800
+Subject: Fix qrc file not found
+
+---
+ icons.qrc | 1 +
+ qml.qrc   | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 120000 icons.qrc
+ create mode 120000 qml.qrc
+
+diff --git a/icons.qrc b/icons.qrc
+new file mode 120000
+index 0000000..bb80505
+--- /dev/null
++++ b/icons.qrc
+@@ -0,0 +1 @@
++src/gui/icon.qrc
+\ No newline at end of file
+diff --git a/qml.qrc b/qml.qrc
+new file mode 120000
+index 0000000..26c05c4
+--- /dev/null
++++ b/qml.qrc
+@@ -0,0 +1 @@
++src/gui/qml.qrc
+\ No newline at end of file
