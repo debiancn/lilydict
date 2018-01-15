@@ -2,13 +2,20 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: lilydict
 Source: https://gitee.com/lieefu/lilydict
 
-Files: *
+Files: * debian/lilydict.png
 Copyright: 2016-2017 lieefu Way.
 License: LGPL-3
 
 Files: debian/*
 Copyright: 2018 Boyuan Yang <073plan@gmail.com>
 License: LGPL-3
+
+Files: src/gui/img/Edit-Text.png
+Copyright: 1997-2012 Microsoft
+License: proprietary-microsoft
+
+License: proprietary-microsoft
+ All rights reserved.
 
 License: LGPL-3
  This package is free software; you can redistribute it and/or

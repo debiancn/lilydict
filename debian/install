@@ -1,0 +1,3 @@
+LilyDict usr/bin/
+debian/lilydict.desktop usr/share/applications/
+debian/lilydict.png usr/share/icons/hicolor/64x64/apps/

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Categories=Dictionary;Education;Qt
+Name=LilyDict
+Name[zh_CN]=百合词典
+GenericName=LilyDict Online English-Chinese Dictionary
+GenericName[zh_CN]=百合在线中英词典
+Icon=lilydict
+Exec=LilyDict
